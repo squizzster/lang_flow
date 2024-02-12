@@ -60,7 +60,7 @@ jina = "*"
 sentence-transformers = { version = "^2.2.2", optional = true }
 ctransformers = { version = "^0.2.10", optional = true }
 cohere = "^4.39.0"
-python-multipart = "^0.0.6"
+python-multipart = ">=0.0.6,<0.0.8"
 sqlmodel = "^0.0.14"
 faiss-cpu = "^1.7.4"
 anthropic = "^0.8.0"
